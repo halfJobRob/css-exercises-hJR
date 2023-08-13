@@ -19,7 +19,6 @@ body {
 }
 
 .card {
-  background-color: bisque; /* not needed */
   width: 200px;
   display: flex;
   flex-direction: column;
