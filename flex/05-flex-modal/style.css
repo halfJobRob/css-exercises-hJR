@@ -10,6 +10,7 @@ body {
   background: #aaa;
   color: #333;
   /* I'll give you this one for free lol */
+  /* Centers Modal in the middle of screen */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,6 +21,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: row;
+  padding: 14px;
 }
 
 .icon {
@@ -33,6 +37,29 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  flex-shrink: 0; /* stops ! circle squishing */
+  margin-right: 14px;
+}
+
+/*
+.container {
+
+} */
+
+.top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.text {
+  padding: 12px 0;
 }
 
 .close-button {
