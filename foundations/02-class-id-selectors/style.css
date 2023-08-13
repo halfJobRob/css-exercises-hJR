@@ -1,0 +1,21 @@
+* {
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+.generic {
+    background-color: #f76060;
+}
+
+.big-text {
+    font-size: 24px;
+}
+
+#une {
+    color: #2011aa;
+    font-size: 36px;
+}
+
+#deux {
+    background-color: #77ff00;
+    font-weight: bolder;
+}

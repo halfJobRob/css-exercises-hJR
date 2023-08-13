@@ -1,0 +1,20 @@
+* {
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    font-size: 28px;
+}
+
+.btn {
+    border-radius: 1px;
+    border-style: solid;
+}
+
+.black-btn {
+    background-color: black;
+    color: #fff;
+    border-color: #c9c7c7;
+}
+
+.yellow-btn {
+    background-color: #f6f929;
+    border-color: #ababab;
+}
