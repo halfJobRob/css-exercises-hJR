@@ -5,6 +5,46 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  display: flex; /* makes entire body flex-container(row) */
+  flex-direction: column;
+  justify-content: space-between; /* vert axis space between page content*/
+  align-items: center; /* x-axis center */
+}
+
+.header, .footer {
+  display: flex;
+  width: 100%; /* needed to stretch container to add space between */
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 12px;
+  margin: 10px 0;
+  padding: 0 20px;
+}
+
+ul li {
+  list-style: none; /* remove bullets */
+  margin: 0; /* remove pre-set margin */
+}
+
+ul li a {
+  font-size: 12px;
+  text-decoration: none; /* remove underscore */
+  color: #000000;
+}
+
+/* add css class to center central content */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
@@ -16,12 +56,58 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 12px;
 }
 
 input {
+  align-content: center;
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* ODIN SOLUTION
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background: #eee;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+} */
