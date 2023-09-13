@@ -30,6 +30,12 @@ body {
 
 /* Changes */
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .header {
   font-size: 32px;
   font-weight: 900;
