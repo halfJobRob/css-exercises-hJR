@@ -42,3 +42,9 @@ body {
   display: flex;
   align-items: center;
 }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
