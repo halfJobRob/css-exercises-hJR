@@ -43,6 +43,11 @@ body {
   align-items: center;
 }
 
+.main{
+  display: flex;
+  flex: 1 1 auto;
+} /* stretches main div to fill empty space */
+
 .footer {
   display: flex;
   align-items: center;
